@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  font-family: "Quicksand";
+}
+
+.sidenavbar {
+    background-color: "white";
+    position: relative;
+    left:auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: auto;
+  }
+  
+  .sidemenu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .sidenav-menu {
+    background-color:coral;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .sidenav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .sidenav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .sidenav-text a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .sidenav-text a:hover {
+    background-color:white;
+  }
+  
+  .sidenav-menu-items {
+    width: 100%;
+  }
+  
+  .sidenavbar-toggle {
+    background-color:coral;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }
